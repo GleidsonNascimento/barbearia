@@ -1,0 +1,70 @@
+.modo-claro{
+    background-color: white;
+    color: black;
+}
+
+.modo-escuro{
+    background-color: rgb(83, 76, 76);
+    color: white;
+}
+header{
+    display: flex;
+}
+header div{
+    height: 10vh;
+    padding-right:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: auto;
+    height: 80px;
+    margin-right: 630px;
+    margin-left: 230px;
+}
+header button{
+    display: flex;
+    align-items: center;
+    border: 2px solid #b2b2b2;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 6px 11px;
+}
+
+.botao{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.box-img{
+    background-image: url('/public/imagens/banner-barbearia.jpg');
+    background-position: center;
+    height: 260px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto{
+    padding-top: 50px;
+    width: 650px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.texto h1{
+    font-size: 30px;
+}
+
+.texto-dois{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.texto-bold{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
